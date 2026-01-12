@@ -12,16 +12,13 @@ const Form = ({ close, onSubmit }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
 
-      {/* Dark overlay */}
       <div
         onClick={close}
         className="absolute inset-0 bg-black/40"
       ></div>
 
-      {/* Modal box */}
       <div className="relative bg-white w-[90%] max-w-md rounded-xl p-6 z-50">
 
-        {/* Close */}
         <button
           onClick={close}
           className="absolute top-4 right-4 text-gray-400 text-xl"
@@ -36,7 +33,9 @@ const Form = ({ close, onSubmit }) => {
           Fill in your details and take control of your tasks.
         </p>
 
-        {/* Form */}
+
+
+
         <form className="space-y-4">
 
           <div className="flex gap-3">
@@ -54,7 +53,6 @@ const Form = ({ close, onSubmit }) => {
             />
           </div>
 
-          {/* Gender */}
           <div>
             <p className="text-sm mb-2">Gender</p>
             <div className="flex gap-4">
@@ -71,7 +69,7 @@ const Form = ({ close, onSubmit }) => {
             </div>
           </div>
 
-          {/* Language */}
+
           <div>
             <p className="text-sm mb-2">Language</p>
             <div className="space-y-2">

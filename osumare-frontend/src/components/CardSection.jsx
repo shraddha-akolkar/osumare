@@ -11,10 +11,11 @@ const CardSection = () => {
     <section className="bg-[#F9FAFB] ">
       <div className="max-w-6xl mx-auto">
 
-        {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-10 items-stretch">
 
-          {/* Red card */}
+
+        {/* card */}
+
           <div className="bg-[#FF3E54] text-white rounded-2xl p-12 h-[600px] flex flex-col justify-center">
             <h2 className="text-[98.87px] font-semibold leading-tight">
               Organize.<br />
@@ -38,7 +39,7 @@ const CardSection = () => {
             </div>
           </div>
 
-          {/* Image card */}
+          {/* img */}
           <div className="relative rounded-2xl overflow-hidden h-[600px]">
             <img
               src={person}

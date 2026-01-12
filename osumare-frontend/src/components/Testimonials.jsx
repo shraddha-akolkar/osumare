@@ -6,10 +6,8 @@ const Testimonials = () => {
     <section className="bg-white py-24 px-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-start">
 
-  {/* LEFT COLUMN */}
   <div>
 
-    {/* Heading */}
     <h2 className="text-5xl md:text-6xl font-bold text-[#0E1F51] mb-5">
       Customer Testimonials
     </h2>
@@ -17,10 +15,8 @@ const Testimonials = () => {
       This tool has transformed my productivity and organization!
     </p>
 
-    {/* Quote Box */}
     <div className="relative pl-10 pt-10 pb-12">
 
-      {/* L-shape border */}
       <div className="absolute top-0 left-0 w-full h-full 
         border-l-[16px] border-t-[16px] border-b-[16px] border-[#FF3E54]">
       </div>
@@ -30,7 +26,6 @@ const Testimonials = () => {
         I can't imagine my day without it.
       </p>
 
-      {/* Author */}
       <div className="flex items-start gap-4 relative">
         <div className="w-4 h-4 bg-[#FF3E54] mt-1"></div>
         <div>
@@ -43,7 +38,6 @@ const Testimonials = () => {
         </div>
       </div>
 
-      {/* Arrows */}
       <div className="flex gap-4 mt-10 relative">
         <button className="w-10 h-10 border border-[#FF3E54] text-[#FF3E54] rounded-full">
           ‹
@@ -55,7 +49,6 @@ const Testimonials = () => {
     </div>
   </div>
 
-  {/* RIGHT COLUMN */}
   <div className="relative w-[540px] h-[540px]">
 
     <div className="absolute top-0 right-0 w-full h-full

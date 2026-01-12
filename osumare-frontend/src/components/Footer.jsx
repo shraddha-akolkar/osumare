@@ -6,10 +6,8 @@ function Footer() {
     <footer className="bg-white px-6 pt-16 pb-6">
       <div className="max-w-6xl mx-auto">
 
-        {/* Top section */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
 
-          {/* Logo + Subscribe */}
           <div>
             <img src={logo} alt="do List" className="w-24 mb-4" />
 
@@ -33,7 +31,6 @@ function Footer() {
             </p>
           </div>
 
-          {/* Useful Links */}
           <div>
             <h3 className="font-semibold mb-4">Useful Links</h3>
             <ul className="space-y-3 text-sm text-gray-700">
@@ -45,7 +42,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Resources */}
           <div>
             <h3 className="font-semibold mb-4">Resources</h3>
             <ul className="space-y-3 text-sm text-gray-700">
@@ -57,7 +53,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Social */}
           <div>
             <h3 className="font-semibold mb-4">Connect With Us</h3>
             <ul className="space-y-3 text-sm text-gray-700">
@@ -71,10 +66,8 @@ function Footer() {
 
         </div>
 
-        {/* Divider */}
         <hr className="my-10" />
 
-        {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between text-sm text-gray-600 gap-4">
           <p>© 2024 Osumare. All rights reserved.</p>
 

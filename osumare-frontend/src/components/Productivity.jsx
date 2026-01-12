@@ -1,6 +1,5 @@
 import React from "react";
 
-// icons (use the images you already have)
 import icon01 from "../assets/images/01.png";
 import icon02 from "../assets/images/02.png";
 import icon03 from "../assets/images/03.png";
@@ -16,23 +15,23 @@ const Productivity = () => {
     <section className="bg-white py-20 px-6">
       <div className="max-w-6xl mx-auto">
 
-        {/* Heading */}
         <h2 className="text-center text-4xl md:text-4xl font-bold text-[#0E1F51] max-w-3xl mx-auto leading-tight mb-16">
           Transform Your Productivity with Our
           Innovative To-Do List Features
         </h2>
 
-        {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
 
-         {/* Card 1 */}
+         
+         
+         {/* 1 */}
 <div className="bg-[#F9FAFB] rounded-2xl p-8 relative">
-  {/* Large background icon */}
+
   <div className="absolute top-6 right-6 text-5xl font-bold text-gray-200 opacity-50">
     01
   </div>
   
-  {/* Main icon with white rounded background */}
+
   <div className="bg-white w-16 h-16 rounded-2xl flex items-center justify-center mb-6 relative z-10 shadow-sm">
     <img src={card1} alt="User Friendly" className="w-10 h-10" />
   </div>
@@ -47,14 +46,16 @@ const Productivity = () => {
     Our platform offers seamless task management to boost your efficiency.
   </p>
 </div>
-          {/* Card 2 */}
+
+
+
+
+          {/* 2 */}
           <div className="bg-[#F9FAFB] rounded-2xl p-8 relative">
-  {/* Large background icon */}
   <div className="absolute top-6 right-6 text-5xl font-bold text-gray-200 opacity-50">
     02
   </div>
   
-  {/* Main icon with white rounded background */}
   <div className="bg-white w-16 h-16 rounded-2xl flex items-center justify-center mb-6 relative z-10 shadow-sm">
     <img src={card2} alt="Collaborate" className="w-10 h-10" />
   </div>
@@ -70,14 +71,15 @@ const Productivity = () => {
             </p>
           </div>
 
-          {/* Card 3 */}
+
+
+
+          {/* 3 */}
           <div className="bg-[#F9FAFB] rounded-2xl p-8 relative">
-  {/* Large background icon */}
   <div className="absolute top-6 right-6 text-5xl font-bold text-gray-200 opacity-50">
     03
   </div>
   
-  {/* Main icon with white rounded background */}
   <div className="bg-white w-16 h-16 rounded-2xl flex items-center justify-center mb-6 relative z-10 shadow-sm">
     <img src={card3} alt="Collaboration" className="w-10 h-10" />
   </div>
@@ -93,14 +95,15 @@ const Productivity = () => {
             </p>
           </div>
 
-          {/* Card 4 */}
+
+
+
+          {/* 4 */}
           <div className="bg-[#F9FAFB] rounded-2xl p-8 relative">
-  {/* Large background icon */}
   <div className="absolute top-6 right-6 text-5xl font-bold text-gray-200 opacity-50">
     04
   </div>
   
-  {/* Main icon with white rounded background */}
   <div className="bg-white w-16 h-16 rounded-2xl flex items-center justify-center mb-6 relative z-10 shadow-sm">
     <img src={card4} alt="User Friendly" className="w-10 h-10" />
   </div>

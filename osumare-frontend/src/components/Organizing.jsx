@@ -1,6 +1,5 @@
 import React from "react";
 import phoneImg from "../assets/images/phone.png"; 
-// ⬆️ use the image you showed (rename accordingly)
 
 const Organizing = () => {
   return (
@@ -9,7 +8,10 @@ const Organizing = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-          {/* Image */}
+
+
+
+          {/* image */}
           <div>
             <img
               src={phoneImg}
@@ -19,7 +21,10 @@ const Organizing = () => {
             />
           </div>
 
-          {/* Content */}
+
+
+
+          {/* info */}
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-[#0E1F51] mb-4">
               Start Organizing Your <br /> Life Today

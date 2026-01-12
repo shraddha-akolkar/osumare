@@ -25,7 +25,6 @@ function App() {
   return (
     <>
     <Navbar />
-      {/* ALL PAGE CONTENT */}
       <div className={(open || showSuccess) ? "blur-sm pointer-events-none" : ""}>
         
         <Hero openForm={() => setOpen(true)} />
@@ -36,7 +35,6 @@ function App() {
        <Table users ={users}/>
       </div>
 
-      {/* MODAL */}
     {open && <Form close ={() => setOpen(false)} onSubmit={handleForm} />}
       {showSuccess && <SuccessPopup close={() => setSuccess(false)} />}
          <Footer />

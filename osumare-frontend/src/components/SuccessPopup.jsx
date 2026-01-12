@@ -4,13 +4,11 @@ const SuccessPopup = ({ close }) => {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center">
 
-      {/* Dark overlay */}
       <div
         onClick={close}
         className="absolute inset-0 bg-black/40"
       ></div>
 
-      {/* Popup */}
 <div className="relative bg-white rounded-xl p-8 w-[90%] max-w-sm text-center z-[10000]">
         <div className="text-red-500 text-3xl mb-2">❤️</div>
 
